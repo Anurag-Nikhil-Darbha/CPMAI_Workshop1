@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E '\\\\.\\(png|jpg|jpeg|gif|svg|pdf\\)$')",
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "Bash(uv --version)",
+      "Bash(docker --version)",
+      "Bash(docker compose:*)",
+      "Bash(npx create-next-app@latest frontend --typescript --tailwind --eslint --app --src-dir --no-import-alias --no-turbopack --use-npm)",
+      "Bash(npx create-next-app@latest frontend --typescript --tailwind --eslint --app --src-dir --no-import-alias --no-turbopack --use-npm --no-experimental-app --yes)",
+      "Bash(npm install:*)",
+      "Bash(ls:*)",
+      "Bash(uv sync:*)",
+      "Bash(timeout 10 uv run uvicorn app.main:app --port 8000)",
+      "Bash(npm run:*)",
+      "Bash(uv run:*)",
+      "Bash(npx prisma:*)",
+      "Bash(echo \"EXIT: $?\")",
+      "WebFetch(domain:www.prisma.io)",
+      "Bash(python -m pytest tests/test_core_api.py -v)",
+      "Bash(find C:/skandasa/ssd/ks-01/frontend/node_modules/next/dist/docs/ -name *instrument* -o -name *sentry* -o -name *error*)",
+      "Bash(pip install:*)",
+      "Bash(find C:/skandasa/ssd/ks-01/frontend/node_modules/next/dist/docs/ -name *next-config* -o -name *next.config*)",
+      "Bash(sed -i '91s/- \\\\[ \\\\]/- [x]/' .design-systems/specs/2026-03-22-scaffolding-auth/tasks.md)",
+      "Bash(sed -i '92s/- \\\\[ \\\\]/- [x]/' .design-systems/specs/2026-03-22-scaffolding-auth/tasks.md)",
+      "Bash(sed -i '98s/- \\\\[ \\\\]/- [x]/' .design-systems/specs/2026-03-22-scaffolding-auth/tasks.md)",
+      "Bash(sed -i '101s/- \\\\[ \\\\]/- [x]/' .design-systems/specs/2026-03-22-scaffolding-auth/tasks.md)",
+      "Bash(sed -i '106s/- \\\\[ \\\\]/- [x]/' .design-systems/specs/2026-03-22-scaffolding-auth/tasks.md)",
+      "Bash(python -c \"import yaml; yaml.safe_load\\(open\\(''''.github/workflows/ci.yml''''\\)\\); print\\(''''YAML is valid''''\\)\")",
+      "Bash(python -c \"import json; json.load\\(open\\(''vercel.json''\\)\\); print\\(''JSON is valid''\\)\")",
+      "mcp__ide__getDiagnostics",
+      "Bash(python -m pytest tests/test_admin_api.py -v)"
+    ]
+  }
+}
